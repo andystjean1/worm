@@ -1,0 +1,8 @@
+#!/worm/bash
+
+cc=gcc
+cflags='-O2 -Wall -g'
+filename=$1
+
+$cc $cflags $filename -o "$filename.o"
+
